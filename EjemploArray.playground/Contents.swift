@@ -1,0 +1,10 @@
+var nombres = ["Marina", "Luisa", "Pedro", "Mario"]
+print(nombres)
+print(nombres[2])
+print(nombres.count)
+print(nombres[2].count)
+nombres.append("Daniela")
+print(nombres)
+print(nombres.count)
+nombres.remove(at: 0)
+print(nombres)
